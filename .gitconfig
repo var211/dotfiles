@@ -1,0 +1,42 @@
+[user]
+name = var211
+email = 65916920+var211@users.noreply.github.com
+
+[merge]
+tool = vimdiff
+conflictstyle = diff3
+
+[diff]
+External = vimdiff-git-wrapper
+
+[pager]
+diff = 
+
+[mergetool]
+prompt = false
+
+[color]
+ui = auto
+status = auto
+branch = auto
+diff = auto
+interface = auto
+
+[push]
+default = matching
+
+[pull]
+rebase = false
+
+[alias]
+add-commit = !git add -A && git commit
+commit-all = !git add -A && git commit
+commit-and-push = !git add -A && git commit -m fixes && git push
+push-all = !git push --all && git push --tags
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+release = !git flow release start
+release-finish = !git flow release finish
+st = status
+
+[init]
+defaultBranch = main

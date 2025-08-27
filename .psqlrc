@@ -1,0 +1,5 @@
+\pset null ¤
+\set HISTSIZE 10000
+\set HISTFILE ~/.cache/.psql-history- :DBNAME
+\set PROMPT1 '%[%033[1;32m%]%n%[%033[0m%] at %[%033[1;33m%]%M:%>%[%033[0m%] in %[%033[1;35m%]%/%[%033[0m%] %[%033[1;37m%]\n:%[%033[0m%] '
+\x auto

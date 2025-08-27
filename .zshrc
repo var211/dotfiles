@@ -3,6 +3,7 @@ setopt incappendhistory
 setopt sharehistory
 setopt extendedhistory
 setopt histignoredups
+setopt histignorespace
 HISTSIZE=SAVEHIST=999999
 # }}}
 # Vi mode {{{

@@ -2,5 +2,8 @@ ln -sf $HOME/.config/dotfiles/.dircolors $HOME/.dircolors
 ln -sf $HOME/.config/dotfiles/.inputrc $HOME/.inputrc
 ln -sf $HOME/.config/dotfiles/.zshenv $HOME/.zshenv
 ln -sf $HOME/.config/dotfiles/.zshrc $HOME/.zshrc
-
-# ln -sf $HOME/.config/dotfiles/ $HOME/
+ln -sf $HOME/.config/dotfiles/.zprofile $HOME/.zprofile
+ln -sf $HOME/.config/dotfiles/.gitconfig $HOME/.gitconfig
+ln -sf $HOME/.config/dotfiles/.psqlrc $HOME/.psqlrc
+ln -sf $HOME/.config/dotfiles/.Xresources $HOME/.Xresources
+ln -sf $HOME/.config/dotfiles/.tmux.conf $HOME/.tmux.conf
